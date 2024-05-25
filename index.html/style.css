@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url(bg-intro-desktop.png) center;
+    background-color: palevioletred;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  .ent,.ten{
+    width: 50%;
+  }
+  h1 {
+    color: white;
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    color: white;
+    font-size: 1.05rem;
+    opacity: 90%;
+  }
+  h4 {
+    background-color: rgb(197, 139, 197);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.35);
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  h4 span {
+    font-weight: 400;
+    opacity: 50%;
+  }
+  form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input.error {
+    border: 1px solid red;
+  }
+  
+  input:hover,
+  input:focus {
+    outline: 1.5px solid violet;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  button:hover{
+    background: purple;
+    color: white;
+  }
+  
+  small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+    gap: 0.25rem;
+  }
+  
+  small span {
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
